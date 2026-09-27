@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Data
+data/
+
+# Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Model weights / checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Generated outputs
+training_statistics.png
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
