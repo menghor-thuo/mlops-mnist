@@ -10,17 +10,14 @@ data/
 
 # Notebooks
 *.ipynb
-.ipynb_checkpoints/
 
-# Model weights / checkpoints
+# Model weights
 *.pth
 *.pt
-*.ckpt
+models/
 
-# Generated outputs
-training_statistics.png
+# Generated figures
+reports/figures/
 
-# OS / editor
+# OS
 .DS_Store
-.vscode/
-.idea/
