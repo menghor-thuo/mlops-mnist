@@ -46,8 +46,11 @@ def train(lr: float =1e-3, batch_size: int =32, epochs: int =10):
     axs[1].set_title("Train accuracy")
     fig.savefig("reports/figures/training_statistics.png")
 
-if __name__=="__main__":
+def main():
     typer.run(train)
+
+if __name__=="__main__":
+    main()
 
 
 
